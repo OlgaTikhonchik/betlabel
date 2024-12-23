@@ -30,6 +30,10 @@
     display: block;
 }
 
+.page-nav-desk{
+    display: block
+  }
+
  .rating__table img {
     width: 32px;
   }
@@ -40,7 +44,7 @@
   }
 
   .footer__content{
-    /* margin-right: 0;margin-left: 0; */
+    
     max-width: 100%;
   }
     
@@ -318,7 +322,7 @@
 
     
     .footer{
-        /* padding-top: 0; */
+        
         padding-bottom: 0;
     }
 }
@@ -476,13 +480,11 @@
 }
 @media screen  and (max-width: 362px){
     table td:first-child {
-        /* width: 65%; */
+        
         font-weight: 500;
     }
 
-    /* table td:last-child {
-        width: 35%;
-    } */
+   
 
     table tr{
         padding-left: 10px;padding-right: 10px;

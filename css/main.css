@@ -46,8 +46,7 @@ h1,
 h2,
 .title.high {
   display: flex;
-  /* display: block; */
-  /* justify-content: center; */
+ 
   justify-content: center;
   align-items: center;
   font-size: 24px;
@@ -126,8 +125,7 @@ article > h3,
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  /* max-width: 1600px; */
-  /* max-width: 100%; */
+  
   margin: 0 auto;
 }
 
@@ -174,7 +172,7 @@ article > h3,
   flex-direction: row;
   max-width: 1600px;
   max-height: 80px;
-  /* background: #054146; */
+  
   background: #16181d;
   padding: 12px 48px;
   margin-bottom: 0;
@@ -321,7 +319,7 @@ svg {
   max-width: 100%;
   padding: 0;
   padding-bottom: 70px;
-  /* padding-bottom: 30px; */
+  
 }
 
 .content__wrapper {
@@ -330,7 +328,7 @@ svg {
   max-width: 984px;
   width: 100%;
   flex: 1 1 100%;
-  /* padding: 10px; */
+ 
   margin: 0 auto;
 }
 
@@ -354,7 +352,7 @@ svg {
 
   width: 100vw;
   display: flex;
-  /* justify-content: center; */
+ 
   justify-content: start;
   align-items: center;
 
@@ -370,14 +368,8 @@ svg {
 
   
 
- /* background-image: url(../images/bg-main.jpg);
- background-position: center;
- background-repeat: no-repeat; */
   padding: 0;
-  /* margin: 0 0 20px 0; */
-
-  /* padding-left: calc(50% - (984px / 2));
-  padding-right: calc(50% - (984px / 2)); */
+  
 
   padding-left: calc(50% - (1050px / 2));
   padding-right: calc(50% - (1050px / 2));
@@ -394,9 +386,7 @@ svg {
   text-align: center;
   position: absolute;
 
-  /* max-width: 482px; */
-  /* top: 0;
-  left: 33%; */
+ 
   top: 50%;
   transform: translateY(-50%);
   
@@ -548,9 +538,7 @@ font-weight: 700;
   content: "";
   display: inline-block;
   position: absolute;
-  /* top: 50%; */
-  /* transform: translateY(-50%);
-  top: 17px; */
+ 
   right: 19px;
   width: 24px;
   height: 24px;
@@ -571,6 +559,7 @@ font-weight: 700;
 .sidebar__list.active {
   display: block;
 }
+
 
 
 /* ------about----------- */
@@ -766,7 +755,7 @@ justify-content: center;
 
 .article__button,
 .ratings__button {
-  /* display: inline-block; */
+  
   display: block;
   width: 240px;
   margin-left: auto;
@@ -805,7 +794,7 @@ justify-content: center;
  .table td {
   font-weight: 700;
 text-transform: uppercase;
-/* text-align: center; */
+
 }
 
 .rating__table tr{
@@ -826,10 +815,7 @@ text-transform: uppercase;
   
 }
 
-.table tr td:nth-child(2){
-  /* flex: 0 0 482px; */
-  
-}
+
 
 .table tr td:nth-child(3){
   flex: 0 1 100px;
@@ -1116,9 +1102,7 @@ text-transform: uppercase;
 
 }
 
-.main__bonuses{
-  /* padding-bottom: 30px; */
-}
+
 
 .main__wrapper-bonus,.main__wrapper-app{
   justify-content: flex-start;
@@ -1146,7 +1130,14 @@ text-transform: uppercase;
 }
 
 
+.page-nav-desk{
+  display: none;
+}
 
+.article__link{
+  color:#4CA421;
+  text-transform: uppercase;
+}
 
 /* ------------------app--------------- */
 
@@ -1159,9 +1150,7 @@ text-transform: uppercase;
   padding: 70px 126px 70px 20px; 
 }
 
-.banner-app{
-  
-}
+
 
 .banner__data-app{
   gap: 20px;
@@ -1189,10 +1178,7 @@ text-transform: uppercase;
   transition: all 0.5s;
 }
 
-/* .banner__button-android{
-  background: #126873;
-  padding: 12px 32px 12px 74px;
-} */
+
 
 .banner__button-ios:hover, .banner__button-android:hover{
  
@@ -1209,7 +1195,7 @@ text-transform: uppercase;
   left: 24px;
   width: 32px;
   height: 32px;
-  /* right: 12px; */
+  
   background: url(../images/apple.svg) no-repeat center center / contain;
   
 }
