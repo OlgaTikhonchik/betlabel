@@ -207,6 +207,7 @@
         padding: 50px;
         transition: height 0.5s ease, opacity 0.5s ease;
         z-index: 100;
+        overflow-y: auto;
       }
     
       .header__menu.active {
