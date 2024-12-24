@@ -329,7 +329,7 @@ svg {
   width: 100%;
   flex: 1 1 100%;
  
-  margin: 0 auto;
+  margin: 0 20px auto 20px;
 }
 
 .main__wrapper {
@@ -440,15 +440,16 @@ font-weight: 700;
   overflow: auto;
 }
 
-.sidebar__left {
-  margin-right: 20px;
+.sidebar__left,.sidebar__right  {
+ 
   border-radius: 3px;
 }
 
-.sidebar__right {
-  margin-left: 20px;
-  border-radius: 3px;
+.sidebar__left-app,.sidebar__left-bonus{
+  margin-right: 20px;
 }
+
+
 .sidebar__desk {
   color: #ffffff;
   background: #262B31;
@@ -1119,7 +1120,7 @@ text-transform: uppercase;
 }
 
 .footer__page{
-  padding-left: 250px;
+  padding-left: 220px;
   
 }
 
