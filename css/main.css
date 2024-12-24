@@ -10,6 +10,7 @@ body {
   line-height: 22px;
   text-align: left;
   color: #0d0d0d;
+  overflow-x: hidden;
 }
 
 .content {
@@ -493,7 +494,9 @@ font-weight: 700;
   padding: 2px 20px;
 }
 
-
+.sidebar__list li +li {
+  margin-top: 8px;
+}
 
 
 
@@ -750,7 +753,8 @@ justify-content: center;
   content: "-";
   display: inline-block;
   position: absolute;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
   left: 0;
 } 
 
